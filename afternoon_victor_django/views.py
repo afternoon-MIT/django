@@ -23,3 +23,7 @@ def productspage(request):
 
 def servicespage(request):
     return render(request, 'services.html')
+
+
+def indexpage(request):
+    return render(request, 'index.html')
